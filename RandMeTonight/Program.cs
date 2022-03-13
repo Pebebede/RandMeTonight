@@ -17,5 +17,6 @@ string input3 = Console.ReadLine();
 Int32.TryParse(input3, out var renewals);
 */
 
+
 Randomizer numberOfCorrectTry = new RandomizerFactory().Calculate(01,10000,10000000);
 Console.WriteLine(numberOfCorrectTry.ToString());
